@@ -1,0 +1,770 @@
+18:19:36 [INFO] Opening target process: csgo.exe
+18:19:36 [INFO] Starting signature scanning: 57 items
+18:19:36 [INFO] Found signature: dwClientState => 0x58CFDC
+18:19:36 [INFO] Found signature: dwClientState_GetLocalPlayer => 0x180
+18:19:36 [INFO] Found signature: dwClientState_IsHLTV => 0x4D48
+18:19:36 [INFO] Found signature: dwClientState_Map => 0x28C
+18:19:36 [INFO] Found signature: dwClientState_MapDirectory => 0x188
+18:19:36 [INFO] Found signature: dwClientState_MaxPlayer => 0x388
+18:19:36 [INFO] Found signature: dwClientState_PlayerInfo => 0x52C0
+18:19:36 [INFO] Found signature: dwClientState_State => 0x108
+18:19:36 [INFO] Found signature: dwClientState_ViewAngles => 0x4D90
+18:19:36 [INFO] Found signature: clientstate_delta_ticks => 0x174
+18:19:36 [INFO] Found signature: clientstate_last_outgoing_command => 0x4D2C
+18:19:36 [INFO] Found signature: clientstate_choked_commands => 0x4D30
+18:19:36 [INFO] Found signature: clientstate_net_channel => 0x9C
+18:19:36 [INFO] Found signature: dwEntityList => 0x4DDD91C
+18:19:36 [INFO] Found signature: dwForceAttack => 0x320DE3C
+18:19:36 [INFO] Found signature: dwForceAttack2 => 0x320DE48
+18:19:36 [INFO] Found signature: dwForceBackward => 0x320DDE8
+18:19:36 [INFO] Found signature: dwForceForward => 0x320DE6C
+18:19:36 [INFO] Found signature: dwForceJump => 0x52878FC
+18:19:36 [INFO] Found signature: dwForceLeft => 0x320DDF4
+18:19:36 [INFO] Found signature: dwForceRight => 0x320DE00
+18:19:36 [INFO] Found signature: dwGameDir => 0x62B900
+18:19:36 [INFO] Found signature: dwGameRulesProxy => 0x52FB12C
+18:19:36 [INFO] Found signature: dwGetAllClasses => 0xDEBCAC
+18:19:36 [INFO] Found signature: dwGlobalVars => 0x58CCE0
+18:19:36 [INFO] Found signature: dwGlowObjectManager => 0x5326620
+18:19:36 [INFO] Found signature: dwInput => 0x522EEF0
+18:19:36 [INFO] Found signature: dwInterfaceLinkList => 0x970754
+18:19:36 [INFO] Found signature: dwLocalPlayer => 0xDC14CC
+18:19:36 [INFO] Found signature: dwMouseEnable => 0xDC71D8
+18:19:36 [INFO] Found signature: dwMouseEnablePtr => 0xDC71A8
+18:19:36 [INFO] Found signature: dwPlayerResource => 0x320C180
+18:19:36 [INFO] Found signature: dwRadarBase => 0x5212694
+18:19:36 [INFO] Found signature: dwSensitivity => 0xDC7074
+18:19:36 [INFO] Found signature: dwSensitivityPtr => 0xDC7048
+18:19:36 [INFO] Found signature: dwSetClanTag => 0x8A410
+18:19:36 [INFO] Found signature: dwViewMatrix => 0x4DCF234
+18:19:36 [INFO] Found signature: dwWeaponTable => 0x522F9B4
+18:19:36 [INFO] Found signature: dwWeaponTableIndex => 0x326C
+18:19:36 [INFO] Found signature: dwYawPtr => 0xDC6E38
+18:19:36 [INFO] Found signature: dwZoomSensitivityRatioPtr => 0xDCD620
+18:19:36 [INFO] Found signature: dwbSendPackets => 0xD8622
+18:19:36 [INFO] Found signature: dwppDirect3DDevice9 => 0xA6050
+18:19:36 [INFO] Found signature: m_pStudioHdr => 0x2950
+18:19:36 [INFO] Found signature: m_yawClassPtr => 0xDC6E38
+18:19:36 [INFO] Found signature: m_pitchClassPtr => 0x5212930
+18:19:36 [INFO] Found signature: interface_engine_cvar => 0x3EA3C
+18:19:36 [INFO] Found signature: convar_name_hash_table => 0x2F190
+18:19:36 [INFO] Found signature: m_bDormant => 0xED
+18:19:36 [INFO] Found signature: model_ambient_min => 0x590054
+18:19:36 [INFO] Found signature: set_abs_angles => 0x1E5AB0
+18:19:36 [INFO] Found signature: set_abs_origin => 0x1E58F0
+18:19:36 [INFO] Found signature: is_c4_owner => 0x3CB620
+18:19:36 [INFO] Found signature: force_update_spectator_glow => 0x3BE59A
+18:19:36 [INFO] Found signature: anim_overlays => 0x2990
+18:19:36 [INFO] Found signature: m_flSpawnTime => 0x103C0
+18:19:36 [INFO] Found signature: find_hud_element => 0x26845CF0
+18:19:36 [INFO] Finished signature scanning: 57/57 items successful
+18:19:36 [INFO] Starting netvar scanning: 93 items
+18:19:36 [INFO] Found netvar: m_ArmorValue => 0x117CC
+18:19:36 [INFO] Found netvar: m_Collision => 0x320
+18:19:36 [INFO] Found netvar: m_CollisionGroup => 0x474
+18:19:36 [INFO] Found netvar: m_Local => 0x2FCC
+18:19:36 [INFO] Found netvar: m_MoveType => 0x25B
+18:19:36 [INFO] Found netvar: m_OriginalOwnerXuidHigh => 0x31D4
+18:19:36 [INFO] Found netvar: m_OriginalOwnerXuidLow => 0x31D0
+18:19:36 [INFO] Found netvar: m_aimPunchAngle => 0x303C
+18:19:36 [INFO] Found netvar: m_aimPunchAngleVel => 0x3048
+18:19:36 [INFO] Found netvar: m_bGunGameImmunity => 0x9990
+18:19:36 [INFO] Found netvar: m_bHasDefuser => 0x117DC
+18:19:36 [INFO] Found netvar: m_bHasHelmet => 0x117C0
+18:19:36 [INFO] Found netvar: m_bInReload => 0x3248
+18:19:36 [INFO] Found netvar: m_bIsDefusing => 0x997C
+18:19:36 [INFO] Found netvar: m_bIsScoped => 0x9974
+18:19:36 [INFO] Found netvar: m_bSpotted => 0x93D
+18:19:36 [INFO] Found netvar: m_bSpottedByMask => 0x980
+18:19:36 [INFO] Found netvar: m_dwBoneMatrix => 0x268C
+18:19:36 [INFO] Found netvar: m_fAccuracyPenalty => 0x3340
+18:19:36 [INFO] Found netvar: m_fFlags => 0x104
+18:19:36 [INFO] Found netvar: m_hViewModel => 0x3308
+18:19:36 [INFO] Found netvar: m_flFallbackWear => 0x31E0
+18:19:36 [INFO] Found netvar: m_flFlashDuration => 0x10470
+18:19:36 [INFO] Found netvar: m_flFlashMaxAlpha => 0x1046C
+18:19:36 [INFO] Found netvar: m_flNextPrimaryAttack => 0x3248
+18:19:36 [INFO] Found netvar: m_hActiveWeapon => 0x2F08
+18:19:36 [INFO] Found netvar: m_hMyWeapons => 0x2F08
+18:19:36 [INFO] Found netvar: m_hObserverTarget => 0x339C
+18:19:36 [INFO] Found netvar: m_hOwner => 0x29DC
+18:19:36 [INFO] Found netvar: m_hOwnerEntity => 0x14C
+18:19:36 [INFO] Found netvar: m_iAccountID => 0x2FD8
+18:19:36 [INFO] Found netvar: m_iClip1 => 0x3274
+18:19:36 [INFO] Found netvar: m_zoomLevel => 0x33E0
+18:19:36 [INFO] Found netvar: m_iCompetitiveRanking => 0x1A84
+18:19:36 [INFO] Found netvar: m_iCompetitiveWins => 0x1B88
+18:19:36 [INFO] Found netvar: m_iCrosshairId => 0x117DC
+18:19:36 [INFO] Found netvar: m_iEntityQuality => 0x2FBC
+18:19:36 [INFO] Found netvar: m_iFOVStart => 0x31F8
+18:19:36 [INFO] Found netvar: m_iGlowIndex => 0x10470
+18:19:36 [INFO] Found netvar: m_iHealth => 0x100
+18:19:36 [INFO] Found netvar: m_iItemDefinitionIndex => 0x2FBA
+18:19:36 [INFO] Found netvar: m_iItemIDHigh => 0x2FD0
+18:19:36 [INFO] Found netvar: m_iObserverMode => 0x3388
+18:19:36 [INFO] Found netvar: m_iShotsFired => 0x103E0
+18:19:36 [INFO] Found netvar: m_iState => 0x3268
+18:19:36 [INFO] Found netvar: m_iTeamNum => 0xF4
+18:19:36 [INFO] Found netvar: m_lifeState => 0x25F
+18:19:36 [INFO] Found netvar: m_nFallbackPaintKit => 0x31D8
+18:19:36 [INFO] Found netvar: m_nFallbackSeed => 0x31DC
+18:19:36 [INFO] Found netvar: m_nFallbackStatTrak => 0x31E4
+18:19:36 [INFO] Found netvar: m_iDefaultFOV => 0x333C
+18:19:36 [INFO] Found netvar: m_iFOV => 0x31F4
+18:19:36 [INFO] Found netvar: m_nForceBone => 0x268C
+18:19:36 [INFO] Found netvar: m_nTickBase => 0x3440
+18:19:36 [INFO] Found netvar: m_rgflCoordinateFrame => 0x474
+18:19:36 [INFO] Found netvar: m_szCustomName => 0x304C
+18:19:36 [INFO] Found netvar: m_szLastPlaceName => 0x35C4
+18:19:36 [INFO] Found netvar: m_vecOrigin => 0x138
+18:19:36 [INFO] Found netvar: m_vecVelocity => 0x114
+18:19:36 [INFO] Found netvar: m_vecViewOffset => 0x108
+18:19:36 [INFO] Found netvar: m_viewPunchAngle => 0x3030
+18:19:36 [INFO] Found netvar: m_thirdPersonViewAngles => 0x31E4
+18:19:36 [INFO] Found netvar: m_clrRender => 0x70
+18:19:36 [INFO] Found netvar: m_bBombTicking => 0x2990
+18:19:36 [INFO] Found netvar: m_bBombDefused => 0x29C0
+18:19:36 [INFO] Found netvar: m_flC4Blow => 0x29A0
+18:19:36 [INFO] Found netvar: m_hBombDefuser => 0x29C4
+18:19:36 [INFO] Found netvar: m_flTimerLength => 0x29A4
+18:19:36 [INFO] Found netvar: m_flDefuseLength => 0x29B8
+18:19:36 [INFO] Found netvar: m_flDefuseCountDown => 0x29BC
+18:19:36 [INFO] Found netvar: m_nBombSite => 0x2994
+18:19:36 [INFO] Found netvar: cs_gamerules_data => 0x0
+18:19:36 [INFO] Found netvar: m_SurvivalRules => 0xD00
+18:19:36 [INFO] Found netvar: m_SurvivalGameRuleDecisionTypes => 0x1328
+18:19:36 [INFO] Found netvar: m_bIsValveDS => 0x7C
+18:19:36 [INFO] Found netvar: m_bFreezePeriod => 0x20
+18:19:36 [INFO] Found netvar: m_bBombPlanted => 0x9A5
+18:19:36 [INFO] Found netvar: m_bIsQueuedMatchmaking => 0x74
+18:19:36 [INFO] Found netvar: m_flSimulationTime => 0x268
+18:19:36 [INFO] Found netvar: m_flLowerBodyYawTarget => 0x9ADC
+18:19:36 [INFO] Found netvar: m_angEyeAnglesX => 0x117D0
+18:19:36 [INFO] Found netvar: m_angEyeAnglesY => 0x117D4
+18:19:36 [INFO] Found netvar: m_flNextAttack => 0x2D80
+18:19:36 [INFO] Found netvar: m_iMostRecentModelBoneCounter => 0x268C
+18:19:36 [INFO] Found netvar: m_flLastBoneSetupTime => 0x28C0
+18:19:36 [INFO] Found netvar: m_bStartedArming => 0x3400
+18:19:36 [INFO] Found netvar: m_bUseCustomBloomScale => 0x9DA
+18:19:36 [INFO] Found netvar: m_bUseCustomAutoExposureMin => 0x9D8
+18:19:36 [INFO] Found netvar: m_bUseCustomAutoExposureMax => 0x9D9
+18:19:36 [INFO] Found netvar: m_flCustomBloomScale => 0x9E4
+18:19:36 [INFO] Found netvar: m_flCustomAutoExposureMin => 0x9DC
+18:19:36 [INFO] Found netvar: m_flCustomAutoExposureMax => 0x9E0
+18:19:36 [INFO] Found netvar: m_nViewModelIndex => 0x29D0
+18:19:36 [INFO] Finished netvar scanning: 93/93 items successful
+13:31:46 [INFO] Opening target process: csgo.exe
+13:31:46 [INFO] Starting signature scanning: 57 items
+13:31:46 [WARN] dwClientState sigscan failed: Module not found
+13:31:46 [WARN] dwClientState_GetLocalPlayer sigscan failed: Module not found
+13:31:46 [WARN] dwClientState_IsHLTV sigscan failed: Module not found
+13:31:46 [WARN] dwClientState_Map sigscan failed: Module not found
+13:31:46 [WARN] dwClientState_MapDirectory sigscan failed: Module not found
+13:31:46 [WARN] dwClientState_MaxPlayer sigscan failed: Module not found
+13:31:46 [WARN] dwClientState_PlayerInfo sigscan failed: Module not found
+13:31:46 [WARN] dwClientState_State sigscan failed: Module not found
+13:31:46 [WARN] dwClientState_ViewAngles sigscan failed: Module not found
+13:31:46 [WARN] clientstate_delta_ticks sigscan failed: Module not found
+13:31:46 [WARN] clientstate_last_outgoing_command sigscan failed: Module not found
+13:31:46 [WARN] clientstate_choked_commands sigscan failed: Module not found
+13:31:46 [WARN] clientstate_net_channel sigscan failed: Module not found
+13:31:46 [WARN] dwEntityList sigscan failed: Module not found
+13:31:46 [WARN] dwForceAttack sigscan failed: Module not found
+13:31:46 [WARN] dwForceAttack2 sigscan failed: Module not found
+13:31:46 [WARN] dwForceBackward sigscan failed: Module not found
+13:31:46 [WARN] dwForceForward sigscan failed: Module not found
+13:31:46 [WARN] dwForceJump sigscan failed: Module not found
+13:31:46 [WARN] dwForceLeft sigscan failed: Module not found
+13:31:46 [WARN] dwForceRight sigscan failed: Module not found
+13:31:46 [WARN] dwGameDir sigscan failed: Module not found
+13:31:46 [WARN] dwGameRulesProxy sigscan failed: Module not found
+13:31:46 [WARN] dwGetAllClasses sigscan failed: Module not found
+13:31:46 [WARN] dwGlobalVars sigscan failed: Module not found
+13:31:46 [WARN] dwGlowObjectManager sigscan failed: Module not found
+13:31:46 [WARN] dwInput sigscan failed: Module not found
+13:31:46 [WARN] dwInterfaceLinkList sigscan failed: Module not found
+13:31:46 [WARN] dwLocalPlayer sigscan failed: Module not found
+13:31:46 [WARN] dwMouseEnable sigscan failed: Module not found
+13:31:46 [WARN] dwMouseEnablePtr sigscan failed: Module not found
+13:31:46 [WARN] dwPlayerResource sigscan failed: Module not found
+13:31:46 [WARN] dwRadarBase sigscan failed: Module not found
+13:31:46 [WARN] dwSensitivity sigscan failed: Module not found
+13:31:46 [WARN] dwSensitivityPtr sigscan failed: Module not found
+13:31:46 [WARN] dwSetClanTag sigscan failed: Module not found
+13:31:46 [WARN] dwViewMatrix sigscan failed: Module not found
+13:31:46 [WARN] dwWeaponTable sigscan failed: Module not found
+13:31:46 [WARN] dwWeaponTableIndex sigscan failed: Module not found
+13:31:46 [WARN] dwYawPtr sigscan failed: Module not found
+13:31:46 [WARN] dwZoomSensitivityRatioPtr sigscan failed: Module not found
+13:31:46 [WARN] dwbSendPackets sigscan failed: Module not found
+13:31:46 [WARN] dwppDirect3DDevice9 sigscan failed: Module not found
+13:31:46 [WARN] m_pStudioHdr sigscan failed: Module not found
+13:31:46 [WARN] m_yawClassPtr sigscan failed: Module not found
+13:31:46 [WARN] m_pitchClassPtr sigscan failed: Module not found
+13:31:46 [WARN] interface_engine_cvar sigscan failed: Module not found
+13:31:46 [WARN] convar_name_hash_table sigscan failed: Module not found
+13:31:46 [WARN] m_bDormant sigscan failed: Module not found
+13:31:46 [WARN] model_ambient_min sigscan failed: Module not found
+13:31:46 [WARN] set_abs_angles sigscan failed: Module not found
+13:31:46 [WARN] set_abs_origin sigscan failed: Module not found
+13:31:46 [WARN] is_c4_owner sigscan failed: Module not found
+13:31:46 [WARN] force_update_spectator_glow sigscan failed: Module not found
+13:31:46 [WARN] anim_overlays sigscan failed: Module not found
+13:31:46 [WARN] m_flSpawnTime sigscan failed: Module not found
+13:31:46 [WARN] find_hud_element sigscan failed: Module not found
+13:31:46 [INFO] Finished signature scanning: 0/57 items successful
+13:31:46 [INFO] Starting netvar scanning: 93 items
+13:31:47 [INFO] Opening target process: csgo.exe
+13:31:47 [INFO] Starting signature scanning: 57 items
+13:31:47 [WARN] dwClientState sigscan failed: Module not found
+13:31:47 [WARN] dwClientState_GetLocalPlayer sigscan failed: Module not found
+13:31:47 [WARN] dwClientState_IsHLTV sigscan failed: Module not found
+13:31:47 [WARN] dwClientState_Map sigscan failed: Module not found
+13:31:47 [WARN] dwClientState_MapDirectory sigscan failed: Module not found
+13:31:47 [WARN] dwClientState_MaxPlayer sigscan failed: Module not found
+13:31:47 [WARN] dwClientState_PlayerInfo sigscan failed: Module not found
+13:31:47 [WARN] dwClientState_State sigscan failed: Module not found
+13:31:47 [WARN] dwClientState_ViewAngles sigscan failed: Module not found
+13:31:47 [WARN] clientstate_delta_ticks sigscan failed: Module not found
+13:31:47 [WARN] clientstate_last_outgoing_command sigscan failed: Module not found
+13:31:47 [WARN] clientstate_choked_commands sigscan failed: Module not found
+13:31:47 [WARN] clientstate_net_channel sigscan failed: Module not found
+13:31:47 [WARN] dwEntityList sigscan failed: Module not found
+13:31:47 [WARN] dwForceAttack sigscan failed: Module not found
+13:31:47 [WARN] dwForceAttack2 sigscan failed: Module not found
+13:31:47 [WARN] dwForceBackward sigscan failed: Module not found
+13:31:47 [WARN] dwForceForward sigscan failed: Module not found
+13:31:47 [WARN] dwForceJump sigscan failed: Module not found
+13:31:47 [WARN] dwForceLeft sigscan failed: Module not found
+13:31:47 [WARN] dwForceRight sigscan failed: Module not found
+13:31:47 [WARN] dwGameDir sigscan failed: Module not found
+13:31:47 [WARN] dwGameRulesProxy sigscan failed: Module not found
+13:31:47 [WARN] dwGetAllClasses sigscan failed: Module not found
+13:31:47 [WARN] dwGlobalVars sigscan failed: Module not found
+13:31:47 [WARN] dwGlowObjectManager sigscan failed: Module not found
+13:31:47 [WARN] dwInput sigscan failed: Module not found
+13:31:47 [WARN] dwInterfaceLinkList sigscan failed: Module not found
+13:31:47 [WARN] dwLocalPlayer sigscan failed: Module not found
+13:31:47 [WARN] dwMouseEnable sigscan failed: Module not found
+13:31:47 [WARN] dwMouseEnablePtr sigscan failed: Module not found
+13:31:47 [WARN] dwPlayerResource sigscan failed: Module not found
+13:31:47 [WARN] dwRadarBase sigscan failed: Module not found
+13:31:47 [WARN] dwSensitivity sigscan failed: Module not found
+13:31:47 [WARN] dwSensitivityPtr sigscan failed: Module not found
+13:31:47 [WARN] dwSetClanTag sigscan failed: Module not found
+13:31:47 [WARN] dwViewMatrix sigscan failed: Module not found
+13:31:47 [WARN] dwWeaponTable sigscan failed: Module not found
+13:31:47 [WARN] dwWeaponTableIndex sigscan failed: Module not found
+13:31:47 [WARN] dwYawPtr sigscan failed: Module not found
+13:31:47 [WARN] dwZoomSensitivityRatioPtr sigscan failed: Module not found
+13:31:47 [WARN] dwbSendPackets sigscan failed: Module not found
+13:31:47 [WARN] dwppDirect3DDevice9 sigscan failed: Module not found
+13:31:47 [WARN] m_pStudioHdr sigscan failed: Module not found
+13:31:47 [WARN] m_yawClassPtr sigscan failed: Module not found
+13:31:47 [WARN] m_pitchClassPtr sigscan failed: Module not found
+13:31:47 [WARN] interface_engine_cvar sigscan failed: Module not found
+13:31:47 [WARN] convar_name_hash_table sigscan failed: Module not found
+13:31:47 [WARN] m_bDormant sigscan failed: Module not found
+13:31:47 [WARN] model_ambient_min sigscan failed: Module not found
+13:31:47 [WARN] set_abs_angles sigscan failed: Module not found
+13:31:47 [WARN] set_abs_origin sigscan failed: Module not found
+13:31:47 [WARN] is_c4_owner sigscan failed: Module not found
+13:31:47 [WARN] force_update_spectator_glow sigscan failed: Module not found
+13:31:47 [WARN] anim_overlays sigscan failed: Module not found
+13:31:47 [WARN] m_flSpawnTime sigscan failed: Module not found
+13:31:47 [WARN] find_hud_element sigscan failed: Module not found
+13:31:47 [INFO] Finished signature scanning: 0/57 items successful
+13:31:47 [INFO] Starting netvar scanning: 93 items
+13:31:49 [INFO] Opening target process: csgo.exe
+13:31:49 [INFO] Starting signature scanning: 57 items
+13:31:49 [WARN] dwClientState sigscan failed: Module not found
+13:31:49 [WARN] dwClientState_GetLocalPlayer sigscan failed: Module not found
+13:31:49 [WARN] dwClientState_IsHLTV sigscan failed: Module not found
+13:31:49 [WARN] dwClientState_Map sigscan failed: Module not found
+13:31:49 [WARN] dwClientState_MapDirectory sigscan failed: Module not found
+13:31:49 [WARN] dwClientState_MaxPlayer sigscan failed: Module not found
+13:31:49 [WARN] dwClientState_PlayerInfo sigscan failed: Module not found
+13:31:49 [WARN] dwClientState_State sigscan failed: Module not found
+13:31:49 [WARN] dwClientState_ViewAngles sigscan failed: Module not found
+13:31:49 [WARN] clientstate_delta_ticks sigscan failed: Module not found
+13:31:49 [WARN] clientstate_last_outgoing_command sigscan failed: Module not found
+13:31:49 [WARN] clientstate_choked_commands sigscan failed: Module not found
+13:31:49 [WARN] clientstate_net_channel sigscan failed: Module not found
+13:31:49 [WARN] dwEntityList sigscan failed: Module not found
+13:31:49 [WARN] dwForceAttack sigscan failed: Module not found
+13:31:49 [WARN] dwForceAttack2 sigscan failed: Module not found
+13:31:49 [WARN] dwForceBackward sigscan failed: Module not found
+13:31:58 [WARN] dwForceForward sigscan failed: Module not found
+13:31:58 [WARN] dwForceJump sigscan failed: Module not found
+13:31:58 [WARN] dwForceLeft sigscan failed: Module not found
+13:31:58 [WARN] dwForceRight sigscan failed: Module not found
+13:31:58 [WARN] dwGameDir sigscan failed: Module not found
+13:31:58 [WARN] dwGameRulesProxy sigscan failed: Module not found
+13:31:58 [WARN] dwGetAllClasses sigscan failed: Module not found
+13:31:58 [WARN] dwGlobalVars sigscan failed: Module not found
+13:31:58 [WARN] dwGlowObjectManager sigscan failed: Module not found
+13:31:58 [WARN] dwInput sigscan failed: Module not found
+13:31:58 [WARN] dwInterfaceLinkList sigscan failed: Module not found
+13:31:58 [WARN] dwLocalPlayer sigscan failed: Module not found
+13:31:58 [WARN] dwMouseEnable sigscan failed: Module not found
+13:31:58 [WARN] dwMouseEnablePtr sigscan failed: Module not found
+13:31:58 [WARN] dwPlayerResource sigscan failed: Module not found
+13:31:58 [WARN] dwRadarBase sigscan failed: Module not found
+13:31:58 [WARN] dwSensitivity sigscan failed: Module not found
+13:31:58 [WARN] dwSensitivityPtr sigscan failed: Module not found
+13:31:58 [WARN] dwSetClanTag sigscan failed: Module not found
+13:31:58 [WARN] dwViewMatrix sigscan failed: Module not found
+13:31:58 [WARN] dwWeaponTable sigscan failed: Module not found
+13:31:58 [WARN] dwWeaponTableIndex sigscan failed: Module not found
+13:31:58 [WARN] dwYawPtr sigscan failed: Module not found
+13:31:58 [WARN] dwZoomSensitivityRatioPtr sigscan failed: Module not found
+13:31:58 [WARN] dwbSendPackets sigscan failed: Module not found
+13:31:58 [WARN] dwppDirect3DDevice9 sigscan failed: Module not found
+13:31:58 [WARN] m_pStudioHdr sigscan failed: Module not found
+13:31:58 [WARN] m_yawClassPtr sigscan failed: Module not found
+13:31:58 [WARN] m_pitchClassPtr sigscan failed: Module not found
+13:31:58 [WARN] interface_engine_cvar sigscan failed: Module not found
+13:31:58 [WARN] convar_name_hash_table sigscan failed: Module not found
+13:31:58 [WARN] m_bDormant sigscan failed: Module not found
+13:31:58 [WARN] model_ambient_min sigscan failed: Module not found
+13:31:58 [WARN] set_abs_angles sigscan failed: Module not found
+13:31:58 [WARN] set_abs_origin sigscan failed: Module not found
+13:31:58 [WARN] is_c4_owner sigscan failed: Module not found
+13:31:58 [WARN] force_update_spectator_glow sigscan failed: Module not found
+13:31:58 [WARN] anim_overlays sigscan failed: Module not found
+13:31:58 [WARN] m_flSpawnTime sigscan failed: Module not found
+13:31:58 [WARN] find_hud_element sigscan failed: Module not found
+13:31:58 [INFO] Finished signature scanning: 0/57 items successful
+13:31:58 [INFO] Starting netvar scanning: 93 items
+13:32:00 [INFO] Opening target process: csgo.exe
+13:32:00 [INFO] Starting signature scanning: 57 items
+13:32:00 [WARN] dwClientState sigscan failed: Module not found
+13:32:00 [WARN] dwClientState_GetLocalPlayer sigscan failed: Module not found
+13:32:00 [WARN] dwClientState_IsHLTV sigscan failed: Module not found
+13:32:00 [WARN] dwClientState_Map sigscan failed: Module not found
+13:32:00 [WARN] dwClientState_MapDirectory sigscan failed: Module not found
+13:32:00 [WARN] dwClientState_MaxPlayer sigscan failed: Module not found
+13:32:00 [WARN] dwClientState_PlayerInfo sigscan failed: Module not found
+13:32:00 [WARN] dwClientState_State sigscan failed: Module not found
+13:32:00 [WARN] dwClientState_ViewAngles sigscan failed: Module not found
+13:32:00 [WARN] clientstate_delta_ticks sigscan failed: Module not found
+13:32:00 [WARN] clientstate_last_outgoing_command sigscan failed: Module not found
+13:32:00 [WARN] clientstate_choked_commands sigscan failed: Module not found
+13:32:00 [WARN] clientstate_net_channel sigscan failed: Module not found
+13:32:00 [WARN] dwEntityList sigscan failed: Module not found
+13:32:00 [WARN] dwForceAttack sigscan failed: Module not found
+13:32:00 [WARN] dwForceAttack2 sigscan failed: Module not found
+13:32:00 [WARN] dwForceBackward sigscan failed: Module not found
+13:32:00 [WARN] dwForceForward sigscan failed: Module not found
+13:32:00 [WARN] dwForceJump sigscan failed: Module not found
+13:32:00 [WARN] dwForceLeft sigscan failed: Module not found
+13:32:00 [WARN] dwForceRight sigscan failed: Module not found
+13:32:00 [WARN] dwGameDir sigscan failed: Module not found
+13:32:00 [WARN] dwGameRulesProxy sigscan failed: Module not found
+13:32:00 [WARN] dwGetAllClasses sigscan failed: Module not found
+13:32:00 [WARN] dwGlobalVars sigscan failed: Module not found
+13:32:00 [WARN] dwGlowObjectManager sigscan failed: Module not found
+13:32:00 [WARN] dwInput sigscan failed: Module not found
+13:32:00 [WARN] dwInterfaceLinkList sigscan failed: Module not found
+13:32:00 [WARN] dwLocalPlayer sigscan failed: Module not found
+13:32:00 [WARN] dwMouseEnable sigscan failed: Module not found
+13:32:00 [WARN] dwMouseEnablePtr sigscan failed: Module not found
+13:32:00 [WARN] dwPlayerResource sigscan failed: Module not found
+13:32:00 [WARN] dwRadarBase sigscan failed: Module not found
+13:32:00 [WARN] dwSensitivity sigscan failed: Module not found
+13:32:00 [WARN] dwSensitivityPtr sigscan failed: Module not found
+13:32:00 [WARN] dwSetClanTag sigscan failed: Module not found
+13:32:00 [WARN] dwViewMatrix sigscan failed: Module not found
+13:32:00 [WARN] dwWeaponTable sigscan failed: Module not found
+13:32:00 [WARN] dwWeaponTableIndex sigscan failed: Module not found
+13:32:00 [WARN] dwYawPtr sigscan failed: Module not found
+13:32:00 [WARN] dwZoomSensitivityRatioPtr sigscan failed: Module not found
+13:32:00 [WARN] dwbSendPackets sigscan failed: Module not found
+13:32:00 [WARN] dwppDirect3DDevice9 sigscan failed: Module not found
+13:32:00 [WARN] m_pStudioHdr sigscan failed: Module not found
+13:32:00 [WARN] m_yawClassPtr sigscan failed: Module not found
+13:32:00 [WARN] m_pitchClassPtr sigscan failed: Module not found
+13:32:00 [WARN] interface_engine_cvar sigscan failed: Module not found
+13:32:00 [WARN] convar_name_hash_table sigscan failed: Module not found
+13:32:00 [WARN] m_bDormant sigscan failed: Module not found
+13:32:00 [WARN] model_ambient_min sigscan failed: Module not found
+13:32:00 [WARN] set_abs_angles sigscan failed: Module not found
+13:32:00 [WARN] set_abs_origin sigscan failed: Module not found
+13:32:00 [WARN] is_c4_owner sigscan failed: Module not found
+13:32:00 [WARN] force_update_spectator_glow sigscan failed: Module not found
+13:32:00 [WARN] anim_overlays sigscan failed: Module not found
+13:32:00 [WARN] m_flSpawnTime sigscan failed: Module not found
+13:32:00 [WARN] find_hud_element sigscan failed: Module not found
+13:32:00 [INFO] Finished signature scanning: 0/57 items successful
+13:32:00 [INFO] Starting netvar scanning: 93 items
+13:32:03 [INFO] Opening target process: csgo.exe
+13:32:03 [INFO] Starting signature scanning: 57 items
+13:32:03 [WARN] dwClientState sigscan failed: Module not found
+13:32:03 [WARN] dwClientState_GetLocalPlayer sigscan failed: Module not found
+13:32:03 [WARN] dwClientState_IsHLTV sigscan failed: Module not found
+13:32:03 [WARN] dwClientState_Map sigscan failed: Module not found
+13:32:03 [WARN] dwClientState_MapDirectory sigscan failed: Module not found
+13:32:03 [WARN] dwClientState_MaxPlayer sigscan failed: Module not found
+13:32:03 [WARN] dwClientState_PlayerInfo sigscan failed: Module not found
+13:32:03 [WARN] dwClientState_State sigscan failed: Module not found
+13:32:03 [WARN] dwClientState_ViewAngles sigscan failed: Module not found
+13:32:03 [WARN] clientstate_delta_ticks sigscan failed: Module not found
+13:32:03 [WARN] clientstate_last_outgoing_command sigscan failed: Module not found
+13:32:03 [WARN] clientstate_choked_commands sigscan failed: Module not found
+13:32:03 [WARN] clientstate_net_channel sigscan failed: Module not found
+13:32:03 [WARN] dwEntityList sigscan failed: Module not found
+13:32:03 [WARN] dwForceAttack sigscan failed: Module not found
+13:32:03 [WARN] dwForceAttack2 sigscan failed: Module not found
+13:32:03 [WARN] dwForceBackward sigscan failed: Module not found
+13:32:03 [WARN] dwForceForward sigscan failed: Module not found
+13:32:03 [WARN] dwForceJump sigscan failed: Module not found
+13:32:03 [WARN] dwForceLeft sigscan failed: Module not found
+13:32:03 [WARN] dwForceRight sigscan failed: Module not found
+13:32:03 [WARN] dwGameDir sigscan failed: Module not found
+13:32:03 [WARN] dwGameRulesProxy sigscan failed: Module not found
+13:32:03 [WARN] dwGetAllClasses sigscan failed: Module not found
+13:32:03 [WARN] dwGlobalVars sigscan failed: Module not found
+13:32:03 [WARN] dwGlowObjectManager sigscan failed: Module not found
+13:32:03 [WARN] dwInput sigscan failed: Module not found
+13:32:03 [WARN] dwInterfaceLinkList sigscan failed: Module not found
+13:32:03 [WARN] dwLocalPlayer sigscan failed: Module not found
+13:32:03 [WARN] dwMouseEnable sigscan failed: Module not found
+13:32:03 [WARN] dwMouseEnablePtr sigscan failed: Module not found
+13:32:03 [WARN] dwPlayerResource sigscan failed: Module not found
+13:32:03 [WARN] dwRadarBase sigscan failed: Module not found
+13:32:03 [WARN] dwSensitivity sigscan failed: Module not found
+13:32:03 [WARN] dwSensitivityPtr sigscan failed: Module not found
+13:32:03 [WARN] dwSetClanTag sigscan failed: Module not found
+13:32:03 [WARN] dwViewMatrix sigscan failed: Module not found
+13:32:03 [WARN] dwWeaponTable sigscan failed: Module not found
+13:32:03 [WARN] dwWeaponTableIndex sigscan failed: Module not found
+13:32:03 [WARN] dwYawPtr sigscan failed: Module not found
+13:32:03 [WARN] dwZoomSensitivityRatioPtr sigscan failed: Module not found
+13:32:03 [WARN] dwbSendPackets sigscan failed: Module not found
+13:32:03 [WARN] dwppDirect3DDevice9 sigscan failed: Module not found
+13:32:03 [WARN] m_pStudioHdr sigscan failed: Module not found
+13:32:03 [WARN] m_yawClassPtr sigscan failed: Module not found
+13:32:03 [WARN] m_pitchClassPtr sigscan failed: Module not found
+13:32:03 [WARN] interface_engine_cvar sigscan failed: Module not found
+13:32:03 [WARN] convar_name_hash_table sigscan failed: Module not found
+13:32:03 [WARN] m_bDormant sigscan failed: Module not found
+13:32:03 [WARN] model_ambient_min sigscan failed: Module not found
+13:32:03 [WARN] set_abs_angles sigscan failed: Module not found
+13:32:03 [WARN] set_abs_origin sigscan failed: Module not found
+13:32:03 [WARN] is_c4_owner sigscan failed: Module not found
+13:32:03 [WARN] force_update_spectator_glow sigscan failed: Module not found
+13:32:03 [WARN] anim_overlays sigscan failed: Module not found
+13:32:03 [WARN] m_flSpawnTime sigscan failed: Module not found
+13:32:03 [WARN] find_hud_element sigscan failed: Module not found
+13:32:03 [INFO] Finished signature scanning: 0/57 items successful
+13:32:03 [INFO] Starting netvar scanning: 93 items
+14:03:58 [INFO] Opening target process: csgo.exe
+14:03:58 [INFO] Starting signature scanning: 57 items
+14:03:58 [INFO] Found signature: dwClientState => 0x58CFDC
+14:03:58 [INFO] Found signature: dwClientState_GetLocalPlayer => 0x180
+14:03:58 [INFO] Found signature: dwClientState_IsHLTV => 0x4D48
+14:03:58 [INFO] Found signature: dwClientState_Map => 0x28C
+14:03:58 [INFO] Found signature: dwClientState_MapDirectory => 0x188
+14:03:58 [INFO] Found signature: dwClientState_MaxPlayer => 0x388
+14:03:58 [INFO] Found signature: dwClientState_PlayerInfo => 0x52C0
+14:03:58 [INFO] Found signature: dwClientState_State => 0x108
+14:03:58 [INFO] Found signature: dwClientState_ViewAngles => 0x4D90
+14:03:58 [INFO] Found signature: clientstate_delta_ticks => 0x174
+14:03:58 [INFO] Found signature: clientstate_last_outgoing_command => 0x4D2C
+14:03:58 [INFO] Found signature: clientstate_choked_commands => 0x4D30
+14:03:58 [INFO] Found signature: clientstate_net_channel => 0x9C
+14:03:58 [INFO] Found signature: dwEntityList => 0x4DDD93C
+14:03:58 [INFO] Found signature: dwForceAttack => 0x320DE5C
+14:03:58 [INFO] Found signature: dwForceAttack2 => 0x320DE68
+14:03:58 [INFO] Found signature: dwForceBackward => 0x320DE08
+14:03:58 [INFO] Found signature: dwForceForward => 0x320DE8C
+14:03:58 [INFO] Found signature: dwForceJump => 0x528791C
+14:03:58 [INFO] Found signature: dwForceLeft => 0x320DE14
+14:03:58 [INFO] Found signature: dwForceRight => 0x320DE20
+14:03:58 [INFO] Found signature: dwGameDir => 0x62B900
+14:03:58 [INFO] Found signature: dwGameRulesProxy => 0x52FB14C
+14:03:58 [INFO] Found signature: dwGetAllClasses => 0xDEBCAC
+14:03:58 [INFO] Found signature: dwGlobalVars => 0x58CCE0
+14:03:58 [INFO] Found signature: dwGlowObjectManager => 0x5326638
+14:03:58 [INFO] Found signature: dwInput => 0x522EF10
+14:03:58 [INFO] Found signature: dwInterfaceLinkList => 0x970944
+14:03:58 [INFO] Found signature: dwLocalPlayer => 0xDC14CC
+14:03:58 [INFO] Found signature: dwMouseEnable => 0xDC71D8
+14:03:58 [INFO] Found signature: dwMouseEnablePtr => 0xDC71A8
+14:03:58 [INFO] Found signature: dwPlayerResource => 0x320C1A0
+14:03:58 [INFO] Found signature: dwRadarBase => 0x52126B4
+14:03:58 [INFO] Found signature: dwSensitivity => 0xDC7074
+14:03:58 [INFO] Found signature: dwSensitivityPtr => 0xDC7048
+14:03:58 [INFO] Found signature: dwSetClanTag => 0x8A410
+14:03:58 [INFO] Found signature: dwViewMatrix => 0x4DCF254
+14:03:58 [INFO] Found signature: dwWeaponTable => 0x522F9D4
+14:03:58 [INFO] Found signature: dwWeaponTableIndex => 0x326C
+14:03:58 [INFO] Found signature: dwYawPtr => 0xDC6E38
+14:03:58 [INFO] Found signature: dwZoomSensitivityRatioPtr => 0xDCD620
+14:03:58 [INFO] Found signature: dwbSendPackets => 0xD8632
+14:03:58 [INFO] Found signature: dwppDirect3DDevice9 => 0xA6050
+14:03:58 [INFO] Found signature: m_pStudioHdr => 0x2950
+14:03:58 [INFO] Found signature: m_yawClassPtr => 0xDC6E38
+14:03:58 [INFO] Found signature: m_pitchClassPtr => 0x5212950
+14:03:58 [INFO] Found signature: interface_engine_cvar => 0x3EA3C
+14:03:58 [INFO] Found signature: convar_name_hash_table => 0x2F190
+14:03:58 [INFO] Found signature: m_bDormant => 0xED
+14:03:58 [INFO] Found signature: model_ambient_min => 0x590054
+14:03:58 [INFO] Found signature: set_abs_angles => 0x1E5AB0
+14:03:58 [INFO] Found signature: set_abs_origin => 0x1E58F0
+14:03:58 [INFO] Found signature: is_c4_owner => 0x3CB670
+14:03:58 [INFO] Found signature: force_update_spectator_glow => 0x3BE5EA
+14:03:58 [INFO] Found signature: anim_overlays => 0x2990
+14:03:58 [INFO] Found signature: m_flSpawnTime => 0x103C0
+14:03:58 [INFO] Found signature: find_hud_element => 0x262F5CF0
+14:03:58 [INFO] Finished signature scanning: 57/57 items successful
+14:03:58 [INFO] Starting netvar scanning: 93 items
+14:03:58 [INFO] Found netvar: m_ArmorValue => 0x117CC
+14:03:58 [INFO] Found netvar: m_Collision => 0x320
+14:03:58 [INFO] Found netvar: m_CollisionGroup => 0x474
+14:03:58 [INFO] Found netvar: m_Local => 0x2FCC
+14:03:58 [INFO] Found netvar: m_MoveType => 0x25B
+14:03:58 [INFO] Found netvar: m_OriginalOwnerXuidHigh => 0x31D4
+14:03:58 [INFO] Found netvar: m_OriginalOwnerXuidLow => 0x31D0
+14:03:58 [INFO] Found netvar: m_aimPunchAngle => 0x303C
+14:03:58 [INFO] Found netvar: m_aimPunchAngleVel => 0x3048
+14:03:58 [INFO] Found netvar: m_bGunGameImmunity => 0x9990
+14:03:58 [INFO] Found netvar: m_bHasDefuser => 0x117DC
+14:03:58 [INFO] Found netvar: m_bHasHelmet => 0x117C0
+14:03:58 [INFO] Found netvar: m_bInReload => 0x3248
+14:03:58 [INFO] Found netvar: m_bIsDefusing => 0x997C
+14:03:58 [INFO] Found netvar: m_bIsScoped => 0x9974
+14:03:58 [INFO] Found netvar: m_bSpotted => 0x93D
+14:03:58 [INFO] Found netvar: m_bSpottedByMask => 0x980
+14:03:58 [INFO] Found netvar: m_dwBoneMatrix => 0x268C
+14:03:58 [INFO] Found netvar: m_fAccuracyPenalty => 0x3340
+14:03:58 [INFO] Found netvar: m_fFlags => 0x104
+14:03:58 [INFO] Found netvar: m_hViewModel => 0x3308
+14:03:58 [INFO] Found netvar: m_flFallbackWear => 0x31E0
+14:03:58 [INFO] Found netvar: m_flFlashDuration => 0x10470
+14:03:58 [INFO] Found netvar: m_flFlashMaxAlpha => 0x1046C
+14:03:58 [INFO] Found netvar: m_flNextPrimaryAttack => 0x3248
+14:03:58 [INFO] Found netvar: m_hActiveWeapon => 0x2F08
+14:03:58 [INFO] Found netvar: m_hMyWeapons => 0x2F08
+14:03:58 [INFO] Found netvar: m_hObserverTarget => 0x339C
+14:03:58 [INFO] Found netvar: m_hOwner => 0x29DC
+14:03:58 [INFO] Found netvar: m_hOwnerEntity => 0x14C
+14:03:58 [INFO] Found netvar: m_iAccountID => 0x2FD8
+14:03:58 [INFO] Found netvar: m_iClip1 => 0x3274
+14:03:58 [INFO] Found netvar: m_zoomLevel => 0x33E0
+14:03:58 [INFO] Found netvar: m_iCompetitiveRanking => 0x1A84
+14:03:58 [INFO] Found netvar: m_iCompetitiveWins => 0x1B88
+14:03:58 [INFO] Found netvar: m_iCrosshairId => 0x117DC
+14:03:58 [INFO] Found netvar: m_iEntityQuality => 0x2FBC
+14:03:58 [INFO] Found netvar: m_iFOVStart => 0x31F8
+14:03:58 [INFO] Found netvar: m_iGlowIndex => 0x10470
+14:03:58 [INFO] Found netvar: m_iHealth => 0x100
+14:03:58 [INFO] Found netvar: m_iItemDefinitionIndex => 0x2FBA
+14:03:58 [INFO] Found netvar: m_iItemIDHigh => 0x2FD0
+14:03:58 [INFO] Found netvar: m_iObserverMode => 0x3388
+14:03:58 [INFO] Found netvar: m_iShotsFired => 0x103E0
+14:03:58 [INFO] Found netvar: m_iState => 0x3268
+14:03:58 [INFO] Found netvar: m_iTeamNum => 0xF4
+14:03:58 [INFO] Found netvar: m_lifeState => 0x25F
+14:03:58 [INFO] Found netvar: m_nFallbackPaintKit => 0x31D8
+14:03:58 [INFO] Found netvar: m_nFallbackSeed => 0x31DC
+14:03:58 [INFO] Found netvar: m_nFallbackStatTrak => 0x31E4
+14:03:58 [INFO] Found netvar: m_iDefaultFOV => 0x333C
+14:03:58 [INFO] Found netvar: m_iFOV => 0x31F4
+14:03:58 [INFO] Found netvar: m_nForceBone => 0x268C
+14:03:58 [INFO] Found netvar: m_nTickBase => 0x3440
+14:03:58 [INFO] Found netvar: m_rgflCoordinateFrame => 0x474
+14:03:58 [INFO] Found netvar: m_szCustomName => 0x304C
+14:03:58 [INFO] Found netvar: m_szLastPlaceName => 0x35C4
+14:03:58 [INFO] Found netvar: m_vecOrigin => 0x138
+14:03:58 [INFO] Found netvar: m_vecVelocity => 0x114
+14:03:58 [INFO] Found netvar: m_vecViewOffset => 0x108
+14:03:58 [INFO] Found netvar: m_viewPunchAngle => 0x3030
+14:03:58 [INFO] Found netvar: m_thirdPersonViewAngles => 0x31E4
+14:03:58 [INFO] Found netvar: m_clrRender => 0x70
+14:03:58 [INFO] Found netvar: m_bBombTicking => 0x2990
+14:03:58 [INFO] Found netvar: m_bBombDefused => 0x29C0
+14:03:58 [INFO] Found netvar: m_flC4Blow => 0x29A0
+14:03:58 [INFO] Found netvar: m_hBombDefuser => 0x29C4
+14:03:58 [INFO] Found netvar: m_flTimerLength => 0x29A4
+14:03:58 [INFO] Found netvar: m_flDefuseLength => 0x29B8
+14:03:58 [INFO] Found netvar: m_flDefuseCountDown => 0x29BC
+14:03:58 [INFO] Found netvar: m_nBombSite => 0x2994
+14:03:58 [INFO] Found netvar: cs_gamerules_data => 0x0
+14:03:58 [INFO] Found netvar: m_SurvivalRules => 0xD00
+14:03:58 [INFO] Found netvar: m_SurvivalGameRuleDecisionTypes => 0x1328
+14:03:58 [INFO] Found netvar: m_bIsValveDS => 0x7C
+14:03:58 [INFO] Found netvar: m_bFreezePeriod => 0x20
+14:03:58 [INFO] Found netvar: m_bBombPlanted => 0x9A5
+14:03:58 [INFO] Found netvar: m_bIsQueuedMatchmaking => 0x74
+14:03:58 [INFO] Found netvar: m_flSimulationTime => 0x268
+14:03:58 [INFO] Found netvar: m_flLowerBodyYawTarget => 0x9ADC
+14:03:58 [INFO] Found netvar: m_angEyeAnglesX => 0x117D0
+14:03:58 [INFO] Found netvar: m_angEyeAnglesY => 0x117D4
+14:03:58 [INFO] Found netvar: m_flNextAttack => 0x2D80
+14:03:58 [INFO] Found netvar: m_iMostRecentModelBoneCounter => 0x268C
+14:03:58 [INFO] Found netvar: m_flLastBoneSetupTime => 0x28C0
+14:03:58 [INFO] Found netvar: m_bStartedArming => 0x3400
+14:03:58 [INFO] Found netvar: m_bUseCustomBloomScale => 0x9DA
+14:03:58 [INFO] Found netvar: m_bUseCustomAutoExposureMin => 0x9D8
+14:03:58 [INFO] Found netvar: m_bUseCustomAutoExposureMax => 0x9D9
+14:03:58 [INFO] Found netvar: m_flCustomBloomScale => 0x9E4
+14:03:58 [INFO] Found netvar: m_flCustomAutoExposureMin => 0x9DC
+14:03:58 [INFO] Found netvar: m_flCustomAutoExposureMax => 0x9E0
+14:03:58 [INFO] Found netvar: m_nViewModelIndex => 0x29D0
+14:03:58 [INFO] Finished netvar scanning: 93/93 items successful
+13:29:37 [INFO] Opening target process: csgo.exe
+13:29:37 [INFO] Starting signature scanning: 57 items
+13:29:37 [INFO] Found signature: dwClientState => 0x58CFDC
+13:29:37 [INFO] Found signature: dwClientState_GetLocalPlayer => 0x180
+13:29:37 [INFO] Found signature: dwClientState_IsHLTV => 0x4D48
+13:29:37 [INFO] Found signature: dwClientState_Map => 0x28C
+13:29:37 [INFO] Found signature: dwClientState_MapDirectory => 0x188
+13:29:37 [INFO] Found signature: dwClientState_MaxPlayer => 0x388
+13:29:37 [INFO] Found signature: dwClientState_PlayerInfo => 0x52C0
+13:29:37 [INFO] Found signature: dwClientState_State => 0x108
+13:29:37 [INFO] Found signature: dwClientState_ViewAngles => 0x4D90
+13:29:37 [INFO] Found signature: clientstate_delta_ticks => 0x174
+13:29:37 [INFO] Found signature: clientstate_last_outgoing_command => 0x4D2C
+13:29:37 [INFO] Found signature: clientstate_choked_commands => 0x4D30
+13:29:37 [INFO] Found signature: clientstate_net_channel => 0x9C
+13:29:37 [INFO] Found signature: dwEntityList => 0x4DDD93C
+13:29:37 [INFO] Found signature: dwForceAttack => 0x320DE20
+13:29:37 [INFO] Found signature: dwForceAttack2 => 0x320DE2C
+13:29:37 [INFO] Found signature: dwForceBackward => 0x320DE74
+13:29:37 [INFO] Found signature: dwForceForward => 0x320DE68
+13:29:37 [INFO] Found signature: dwForceJump => 0x528791C
+13:29:37 [INFO] Found signature: dwForceLeft => 0x320DE80
+13:29:37 [INFO] Found signature: dwForceRight => 0x320DE8C
+13:29:37 [INFO] Found signature: dwGameDir => 0x62B900
+13:29:37 [INFO] Found signature: dwGameRulesProxy => 0x52FB14C
+13:29:37 [INFO] Found signature: dwGetAllClasses => 0xDEBCAC
+13:29:37 [INFO] Found signature: dwGlobalVars => 0x58CCE0
+13:29:37 [INFO] Found signature: dwGlowObjectManager => 0x5326640
+13:29:37 [INFO] Found signature: dwInput => 0x522EF10
+13:29:37 [INFO] Found signature: dwInterfaceLinkList => 0x9709C4
+13:29:37 [INFO] Found signature: dwLocalPlayer => 0xDC14CC
+13:29:37 [INFO] Found signature: dwMouseEnable => 0xDC71D8
+13:29:37 [INFO] Found signature: dwMouseEnablePtr => 0xDC71A8
+13:29:37 [INFO] Found signature: dwPlayerResource => 0x320C1A0
+13:29:37 [INFO] Found signature: dwRadarBase => 0x52126B4
+13:29:37 [INFO] Found signature: dwSensitivity => 0xDC7074
+13:29:37 [INFO] Found signature: dwSensitivityPtr => 0xDC7048
+13:29:37 [INFO] Found signature: dwSetClanTag => 0x8A420
+13:29:37 [INFO] Found signature: dwViewMatrix => 0x4DCF254
+13:29:37 [INFO] Found signature: dwWeaponTable => 0x522F9D4
+13:29:37 [INFO] Found signature: dwWeaponTableIndex => 0x326C
+13:29:37 [INFO] Found signature: dwYawPtr => 0xDC6E38
+13:29:37 [INFO] Found signature: dwZoomSensitivityRatioPtr => 0xDCD620
+13:29:37 [INFO] Found signature: dwbSendPackets => 0xD8632
+13:29:37 [INFO] Found signature: dwppDirect3DDevice9 => 0xA6050
+13:29:37 [INFO] Found signature: m_pStudioHdr => 0x2950
+13:29:37 [INFO] Found signature: m_yawClassPtr => 0xDC6E38
+13:29:37 [INFO] Found signature: m_pitchClassPtr => 0x5212950
+13:29:37 [INFO] Found signature: interface_engine_cvar => 0x3EA3C
+13:29:37 [INFO] Found signature: convar_name_hash_table => 0x2F190
+13:29:37 [INFO] Found signature: m_bDormant => 0xED
+13:29:37 [INFO] Found signature: model_ambient_min => 0x590054
+13:29:37 [INFO] Found signature: set_abs_angles => 0x1E5AB0
+13:29:37 [INFO] Found signature: set_abs_origin => 0x1E58F0
+13:29:37 [INFO] Found signature: is_c4_owner => 0x3CB670
+13:29:37 [INFO] Found signature: force_update_spectator_glow => 0x3BE5FA
+13:29:37 [INFO] Found signature: anim_overlays => 0x2990
+13:29:37 [INFO] Found signature: m_flSpawnTime => 0x103C0
+13:29:37 [INFO] Found signature: find_hud_element => 0x26EE5D20
+13:29:37 [INFO] Finished signature scanning: 57/57 items successful
+13:29:37 [INFO] Starting netvar scanning: 93 items
+13:29:37 [INFO] Found netvar: m_ArmorValue => 0x117CC
+13:29:37 [INFO] Found netvar: m_Collision => 0x320
+13:29:37 [INFO] Found netvar: m_CollisionGroup => 0x474
+13:29:37 [INFO] Found netvar: m_Local => 0x2FCC
+13:29:37 [INFO] Found netvar: m_MoveType => 0x25B
+13:29:37 [INFO] Found netvar: m_OriginalOwnerXuidHigh => 0x31D4
+13:29:37 [INFO] Found netvar: m_OriginalOwnerXuidLow => 0x31D0
+13:29:37 [INFO] Found netvar: m_aimPunchAngle => 0x303C
+13:29:37 [INFO] Found netvar: m_aimPunchAngleVel => 0x3048
+13:29:37 [INFO] Found netvar: m_bGunGameImmunity => 0x9990
+13:29:37 [INFO] Found netvar: m_bHasDefuser => 0x117DC
+13:29:37 [INFO] Found netvar: m_bHasHelmet => 0x117C0
+13:29:37 [INFO] Found netvar: m_bInReload => 0x3248
+13:29:37 [INFO] Found netvar: m_bIsDefusing => 0x997C
+13:29:37 [INFO] Found netvar: m_bIsScoped => 0x9974
+13:29:37 [INFO] Found netvar: m_bSpotted => 0x93D
+13:29:37 [INFO] Found netvar: m_bSpottedByMask => 0x980
+13:29:37 [INFO] Found netvar: m_dwBoneMatrix => 0x268C
+13:29:37 [INFO] Found netvar: m_fAccuracyPenalty => 0x3340
+13:29:37 [INFO] Found netvar: m_fFlags => 0x104
+13:29:37 [INFO] Found netvar: m_hViewModel => 0x3308
+13:29:37 [INFO] Found netvar: m_flFallbackWear => 0x31E0
+13:29:37 [INFO] Found netvar: m_flFlashDuration => 0x10470
+13:29:37 [INFO] Found netvar: m_flFlashMaxAlpha => 0x1046C
+13:29:37 [INFO] Found netvar: m_flNextPrimaryAttack => 0x3248
+13:29:37 [INFO] Found netvar: m_hActiveWeapon => 0x2F08
+13:29:37 [INFO] Found netvar: m_hMyWeapons => 0x2F08
+13:29:37 [INFO] Found netvar: m_hObserverTarget => 0x339C
+13:29:37 [INFO] Found netvar: m_hOwner => 0x29DC
+13:29:37 [INFO] Found netvar: m_hOwnerEntity => 0x14C
+13:29:37 [INFO] Found netvar: m_iAccountID => 0x2FD8
+13:29:37 [INFO] Found netvar: m_iClip1 => 0x3274
+13:29:37 [INFO] Found netvar: m_zoomLevel => 0x33E0
+13:29:37 [INFO] Found netvar: m_iCompetitiveRanking => 0x1A84
+13:29:37 [INFO] Found netvar: m_iCompetitiveWins => 0x1B88
+13:29:37 [INFO] Found netvar: m_iCrosshairId => 0x117DC
+13:29:37 [INFO] Found netvar: m_iEntityQuality => 0x2FBC
+13:29:37 [INFO] Found netvar: m_iFOVStart => 0x31F8
+13:29:37 [INFO] Found netvar: m_iGlowIndex => 0x10470
+13:29:37 [INFO] Found netvar: m_iHealth => 0x100
+13:29:37 [INFO] Found netvar: m_iItemDefinitionIndex => 0x2FBA
+13:29:37 [INFO] Found netvar: m_iItemIDHigh => 0x2FD0
+13:29:37 [INFO] Found netvar: m_iObserverMode => 0x3388
+13:29:37 [INFO] Found netvar: m_iShotsFired => 0x103E0
+13:29:37 [INFO] Found netvar: m_iState => 0x3268
+13:29:37 [INFO] Found netvar: m_iTeamNum => 0xF4
+13:29:37 [INFO] Found netvar: m_lifeState => 0x25F
+13:29:37 [INFO] Found netvar: m_nFallbackPaintKit => 0x31D8
+13:29:37 [INFO] Found netvar: m_nFallbackSeed => 0x31DC
+13:29:37 [INFO] Found netvar: m_nFallbackStatTrak => 0x31E4
+13:29:37 [INFO] Found netvar: m_iDefaultFOV => 0x333C
+13:29:37 [INFO] Found netvar: m_iFOV => 0x31F4
+13:29:37 [INFO] Found netvar: m_nForceBone => 0x268C
+13:29:37 [INFO] Found netvar: m_nTickBase => 0x3440
+13:29:37 [INFO] Found netvar: m_rgflCoordinateFrame => 0x474
+13:29:37 [INFO] Found netvar: m_szCustomName => 0x304C
+13:29:37 [INFO] Found netvar: m_szLastPlaceName => 0x35C4
+13:29:37 [INFO] Found netvar: m_vecOrigin => 0x138
+13:29:37 [INFO] Found netvar: m_vecVelocity => 0x114
+13:29:37 [INFO] Found netvar: m_vecViewOffset => 0x108
+13:29:37 [INFO] Found netvar: m_viewPunchAngle => 0x3030
+13:29:37 [INFO] Found netvar: m_thirdPersonViewAngles => 0x31E4
+13:29:37 [INFO] Found netvar: m_clrRender => 0x70
+13:29:37 [INFO] Found netvar: m_bBombTicking => 0x2990
+13:29:37 [INFO] Found netvar: m_bBombDefused => 0x29C0
+13:29:37 [INFO] Found netvar: m_flC4Blow => 0x29A0
+13:29:37 [INFO] Found netvar: m_hBombDefuser => 0x29C4
+13:29:37 [INFO] Found netvar: m_flTimerLength => 0x29A4
+13:29:37 [INFO] Found netvar: m_flDefuseLength => 0x29B8
+13:29:37 [INFO] Found netvar: m_flDefuseCountDown => 0x29BC
+13:29:37 [INFO] Found netvar: m_nBombSite => 0x2994
+13:29:37 [INFO] Found netvar: cs_gamerules_data => 0x0
+13:29:37 [INFO] Found netvar: m_SurvivalRules => 0xD00
+13:29:37 [INFO] Found netvar: m_SurvivalGameRuleDecisionTypes => 0x1328
+13:29:37 [INFO] Found netvar: m_bIsValveDS => 0x7C
+13:29:37 [INFO] Found netvar: m_bFreezePeriod => 0x20
+13:29:37 [INFO] Found netvar: m_bBombPlanted => 0x9A5
+13:29:37 [INFO] Found netvar: m_bIsQueuedMatchmaking => 0x74
+13:29:37 [INFO] Found netvar: m_flSimulationTime => 0x268
+13:29:37 [INFO] Found netvar: m_flLowerBodyYawTarget => 0x9ADC
+13:29:37 [INFO] Found netvar: m_angEyeAnglesX => 0x117D0
+13:29:37 [INFO] Found netvar: m_angEyeAnglesY => 0x117D4
+13:29:37 [INFO] Found netvar: m_flNextAttack => 0x2D80
+13:29:37 [INFO] Found netvar: m_iMostRecentModelBoneCounter => 0x268C
+13:29:37 [INFO] Found netvar: m_flLastBoneSetupTime => 0x28C0
+13:29:37 [INFO] Found netvar: m_bStartedArming => 0x3400
+13:29:37 [INFO] Found netvar: m_bUseCustomBloomScale => 0x9DA
+13:29:37 [INFO] Found netvar: m_bUseCustomAutoExposureMin => 0x9D8
+13:29:37 [INFO] Found netvar: m_bUseCustomAutoExposureMax => 0x9D9
+13:29:37 [INFO] Found netvar: m_flCustomBloomScale => 0x9E4
+13:29:37 [INFO] Found netvar: m_flCustomAutoExposureMin => 0x9DC
+13:29:37 [INFO] Found netvar: m_flCustomAutoExposureMax => 0x9E0
+13:29:37 [INFO] Found netvar: m_nViewModelIndex => 0x29D0
+13:29:37 [INFO] Finished netvar scanning: 93/93 items successful
